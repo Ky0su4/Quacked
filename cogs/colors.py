@@ -1,0 +1,5 @@
+RED = 0xff5677
+GREEN = 0x84dfff
+YELLOW = 0xFFAFAF
+BLUE = 0x60ff60
+EMPTY = "​"

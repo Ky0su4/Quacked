@@ -1,0 +1,12 @@
+{
+  "files": {
+    "cogs/moderation.py": [
+      {
+        "id": "0ae4cb7a-5332-43a3-83b1-810977ae938b",
+        "line": 22,
+        "version": 1405,
+        "index": 510
+      }
+    ]
+  }
+}
