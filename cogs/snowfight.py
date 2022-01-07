@@ -75,6 +75,12 @@ class SnowFight(commands.Cog):
 			await ctx.message.channel.send(embed=embedVar)
 			return
 
+		if int(num) < 1:
+			embedVar = discord.Embed(title=".", description="oooh... Sorry we don't borrow them.", color=BLUE)
+			embedVar.set_footer(text = "Issued by: " + ctx.message.author.name)
+			await ctx.message.channel.send(embed=embedVar)
+			return
+
 		# If your dice roll is greater than thw bot's dice roll
 		if random.randrange(1, 6) > random.randrange(1, 6):
 			db.db[str(ctx.author.id)] = db.db[str(ctx.author.id)] + int(num)
